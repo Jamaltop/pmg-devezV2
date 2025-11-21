@@ -1,0 +1,9 @@
+@use "./mixins" as *;
+@import "./reset";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+  @include adaptiveValue("font-size", 18, 14);
+  line-height: 1.6;
+}
