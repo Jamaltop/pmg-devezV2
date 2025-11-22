@@ -16,6 +16,9 @@ body{
     margin: 0;
     padding: 0;
 }
+[class*="__container"] { max-width: 1410px; padding-inline: 15px; width: 100%; margin-inline: auto;}
+
+
 
 /* Preferred box-sizing value */
 *,
