@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./src/style.scss">
         <title>Home | Page</title>
+        <script src="./src/main.js"></script>
     </head>
     <body>
         <header class="header">
@@ -118,12 +119,20 @@
                 </div>
                 <div class="info__images">
                     <div class="info__images-left">
-                        <img style="max-width: 308px; min-height: 324px;" class="info__image" src="/info-image1.png" alt="info-image">
-                        <img style="max-width: 197px; min-height: 194px;" class="info__image" src="/info-image2.png" alt="info-image">
+                        <div class="info__image">
+                          <img src="/info-image1.png" alt="info-image">
+                        </div>
+                        <div class="info__image">
+                          <img src="/info-image2.png" alt="info-image">
+                        </div>
                     </div>
                     <div class="info__images-right">
-                        <img style="max-width: 409px; min-height: 247px;" class="info__image" src="/info-image3.png" alt="info-image">
-                        <img style="max-width: 297px; min-height: 248px;" class="info__image" src="/info-image4.png" alt="info-image">
+                      <div class="info__image">
+                        <img src="/info-image3.png" alt="info-image">
+                      </div>
+                      <div class="info__image">
+                        <img src="/info-image4.png" alt="info-image">
+                      </div>
                     </div>
                 </div>
 
@@ -136,8 +145,8 @@
 
         <section class="events">
             <div class="events__container">
-                <div class="events__title">
-                    <h1 class="title">LATEST NEWS & EVENTS</h1>
+                <div class="events__top">
+                    <h1 class="events__title">LATEST NEWS & EVENTS</h1>
                     <a class="events__title-link" href="">learn more <img src="/arrow-icon.svg" alt=""></a>
                 </div>
                 
